@@ -1,0 +1,79 @@
+/* Reset some default styles */
+body, h1, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the page */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('your-background-image.jpg') center/cover fixed no-repeat; /* Background gradient and image */
+    color: #fff; /* Text color */
+    text-align: center;
+    background-blend-mode: multiply; /* Adjust blend mode for better contrast */
+}
+
+.container {
+    margin-top:100px;
+    
+    max-width: 400px;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 20px;
+    background-color: greenyellow; /* Content background color with transparency */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Box shadow */
+}
+
+/* Header styling */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #007BFF; /* Header text color */
+}
+
+/* Input and button styling */
+#cityInput {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#getWeatherBtn {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Hover effect */
+}
+
+#getWeatherBtn:hover {
+    background-color: #0056b3; /* Hover background color */
+}
+
+/* Weather information styling */
+#cityName {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#temperature {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+#description {
+    font-size: 18px;
+}
+
+/* Footer styling */
+#taskCount {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666; /* Footer text color */
+}
